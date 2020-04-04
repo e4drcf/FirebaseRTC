@@ -75,5 +75,28 @@
     <div class="mdc-dialog__scrim"></div>
 </div>
 <script src="app.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyACIi0HQAJLW4nBo6JAzvmlABbcz6KZGfA",
+    authDomain: "fir-rtc-98e70.firebaseapp.com",
+    databaseURL: "https://fir-rtc-98e70.firebaseio.com",
+    projectId: "fir-rtc-98e70",
+    storageBucket: "fir-rtc-98e70.appspot.com",
+    messagingSenderId: "169832426282",
+    appId: "1:169832426282:web:af1392b0d6c474b8074c53",
+    measurementId: "G-34134SHDFS"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
